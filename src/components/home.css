@@ -1,0 +1,111 @@
+#main1 {
+  background-image: url('/img/heroImage.webp');
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: fit;
+  height: 120vh;
+  width: 100%;
+
+  position: relative;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1024px) {
+  #main1 {
+    height: 100vh; /* Adjust height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main1 {
+    background-position: center center; /* Adjust background position for smaller screens */
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #main1 {
+    height: 80vh; /* Further adjust height for even smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #main1 {
+    height: 60vh; /* Adjust height for very small screens */
+  }
+}
+
+  .schedule {
+    padding: 1% 1% 1% 2%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 35%;
+    z-index: 2;
+    opacity: 0.5;
+    background-color: #f0f8ff;
+  }
+  
+  .schedule h1 {
+   
+    font-family: "Questrial";
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .schedule p {
+    color: black;
+  }
+  
+  .schedule button {
+    text-decoration: underline;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for different screen sizes */
+  @media screen and (max-width: 1024px) {
+    .schedule {
+      width: 45%;
+      left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .schedule {
+      width: 60%;
+      left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .schedule {
+      width: 75%;
+      left: 15%;
+      top: 15%;
+      padding: 2%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .schedule {
+      width: 85%;
+      left: 10%;
+   
+
+      padding: 3%;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .schedule {
+      width: 90%;
+      left: 5%;
+      top: 5%;
+      padding: 4%;
+     
+    }
+  }
+  

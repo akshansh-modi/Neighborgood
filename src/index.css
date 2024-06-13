@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .dark-text{
+    @apply dark:text-white;
+  }
+  .darkbg{
+    @apply dark:bg-black;
+  }
+}
+
+body {
+  margin:0;
+  padding: 0 ;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+height: 100vh;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

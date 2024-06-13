@@ -1,3 +1,4 @@
+
 # Neighborgood Project
 
 Welcome to Neighborgood, a project that aims to connect neighbors through technology.
@@ -16,8 +17,6 @@ Make sure you have Node.js and npm installed on your machine.
    ```sh
    git clone https://github.com/akshansh-modi/Neighborgood.git
    ```
-
-````
 
 2. Navigate into the project directory
    ```sh
@@ -39,4 +38,3 @@ npm run dev
 ## Project Link
 
 [Neighborgood](https://neighborgoodassign.vercel.app/)
-````

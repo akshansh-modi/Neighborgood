@@ -3,7 +3,7 @@ import Button from "../layouts/Button";
 const Postcard = () => {
   return (
     <>
-      <div className="min-h-screen dark:bg-slate-500 dark-text mt-4   ">
+      <div className="min-h-screen dark:bg-slate-500 dark-text mt-4 flex flex-col  items-center   ">
         <div className="  flex flex-col lg:flex-row justify-between items-center  lg:px-32 px-5 pt-24 lg:pt-16 gap-5">
           <div className=" w-full lg:w-3/4">
             <img src={postcardimg}></img>
@@ -23,9 +23,10 @@ const Postcard = () => {
               </p>
             </div> 
           </div>
-          <div className=" mt-4 lg:mt-0">
-          <Button title="View Postcards" />
+          
         </div>
+        <div className="pt-4  mt-8 mb-4 lg:mt-0">
+          <Button  title="View Postcards" />
         </div>
       </div>
     </>

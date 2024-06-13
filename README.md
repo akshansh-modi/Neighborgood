@@ -1,6 +1,4 @@
-Certainly! Below is a properly formatted `README.md` file with the steps you provided:
 
-````markdown
 # Neighborgood Project
 
 Welcome to Neighborgood, a project that aims to connect neighbors through technology.
